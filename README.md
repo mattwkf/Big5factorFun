@@ -2,17 +2,17 @@
 
 To ensure the project runs correctly, please maintain the following folder and file layout:
 
+```text
 Big5/
 │
 ├── css/
-│ └── styles.css
+│   └── styles.css
 │
 ├── js/
-│ ├── questions.json
-│ └── quiz.js
+│   ├── questions.json
+│   └── quiz.js
 │
 └── Big5factor.html
-
 
 - **css/** contains all styling files (currently `styles.css`).
 - **js/** contains the quiz logic (`quiz.js`) and question data (`questions.json`).
