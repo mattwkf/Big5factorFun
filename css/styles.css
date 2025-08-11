@@ -1,0 +1,155 @@
+/* =========================================================
+   Big-Five Quiz – Dark theme  ✧  Compact layout  ✧  v2.0
+   ========================================================= */
+
+/* ---------- colour palette ---------- */
+:root{
+  --primary:#6366f1;        /* indigo-500 */
+  --accent:#ec4899;         /* pink-500   */
+  --bg:#000000;             /* slate-900  */
+  --card:#1e293b;           /* slate-800  */
+  --border:#334155;         /* slate-700  */
+  --text:#f1f5f9;           /* slate-100  */
+  --text-muted:#94a3b8;     /* slate-400  */
+}
+
+/* ---------- global resets ---------- */
+*{box-sizing:border-box;font-family:"Inter",sans-serif}
+body{
+  margin:0;background:var(--bg);color:var(--text);
+  display:flex;align-items:center;justify-content:center;
+  min-height:100vh;padding:2rem
+}
+h1{margin:0 0 1.25rem;text-align:center;font-size:1.65rem}
+
+/* ---------- quiz “card” ---------- */
+.quiz-card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:1rem;
+  box-shadow:0 6px 20px rgba(0,0,0,.35);
+  padding:2rem 1.75rem;          /* a bit narrower */
+  max-width:640px;               /* was 760px */
+  width:100%;
+  font-size:.95rem;              /* down-scaled global font */
+}
+
+/* =========================================================
+   Accordion (categories & sub-facets)
+   ========================================================= */
+details{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:.75rem;
+  margin-bottom:1rem;
+  overflow:hidden;
+  transition:box-shadow .2s,background .2s
+}
+details[open]{box-shadow:0 4px 14px rgba(0,0,0,.5)}
+summary{
+  list-style:none;cursor:pointer;
+  padding:.9rem 1.2rem;
+  font-weight:600;
+  display:flex;justify-content:space-between;align-items:flex-start;
+  color:var(--text)
+}
+summary::-webkit-details-marker{display:none}
+
+/* --- arrow icons --- */
+.arrow{
+  transition:transform .2s;
+  display:inline-block;
+  font-size:.9rem;              /* smaller default arrow */
+  color:var(--text-muted);
+}
+details[open]>summary .arrow{transform:rotate(90deg)}
+.subcategory summary .arrow{font-size:.75rem}
+
+/* --- spacing / indent for sub-facets --- */
+.subcategory{margin:.45rem 0}
+.subcategory summary{
+  padding-left:2rem;
+  color:var(--text-muted);
+  font-size:.9rem;
+}
+.subcategory .panel-body{padding-left:2rem}
+
+/* --- main panel body for every <details> --- */
+.panel-body{padding:0 1.2rem .9rem}
+
+/* =========================================================
+   Category title + description (longer blurbs)
+   ========================================================= */
+.trait-summary{display:flex;justify-content:space-between;align-items:flex-start}
+.trait-text{max-width:90%}
+
+.trait-title{
+  font-weight:600;
+  font-size:1rem;
+  display:block;
+}
+
+.trait-desc{          /* longer blurb under each title */
+  display:block;
+  margin:.25rem 0 .4rem;
+  font-size:.83rem;
+  line-height:1.45;
+  color:var(--text-muted);
+}
+.trait-desc em{font-style:normal;font-weight:600;color:var(--accent)}
+.trait-desc strong{font-weight:600;color:var(--text)}
+
+.trait-info{ transform: scale(0.8); transform-origin: top left;}
+
+/* =========================================================
+   Question block
+   ========================================================= */
+.question{margin-bottom:.7rem}
+.question p{margin:0 0 .2rem;font-weight:500}
+.question label{
+  font-size:.9rem;display:block;cursor:pointer;color:var(--text-muted);
+  margin-bottom:.25rem;
+}
+
+/* radio buttons visible on dark bg */
+input[type="radio"]{accent-color:var(--primary)}
+
+/* =========================================================
+   Buttons
+   ========================================================= */
+button{
+  background:var(--primary);color:#fff;border:none;border-radius:.5rem;
+  padding:.45rem .9rem;font-size:.85rem;cursor:pointer;
+  transition:background .2s,transform .15s
+}
+button:hover{background:#4f46e5}
+button:active{transform:scale(.97)}
+
+.trait-results-btn{background:var(--accent)}
+.trait-results-btn:hover{background:#c32d7d}
+
+/* =========================================================
+   Results bars
+   ========================================================= */
+#results{margin-top:2rem;display:none}
+.trait-label{margin-bottom:.25rem;font-size:.87rem;font-weight:600}
+.bar{
+  background:var(--border);border-radius:.5rem;overflow:hidden;
+  height:1rem;margin-bottom:.9rem
+}
+.bar-fill{
+  height:100%;background:var(--accent);width:0;
+  transition:width .6s ease
+}
+
+/* =========================================================
+   Sub-result inline feedback
+   ========================================================= */
+.sub-result{
+  margin-top:.65rem;font-size:.87rem;font-weight:600;color:var(--primary)
+}
+
+/* =========================================================
+   Utility – hide default arrow gap in Firefox
+   ========================================================= */
+details > summary{list-style:none}

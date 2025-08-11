@@ -1,0 +1,1746 @@
+{
+  "O": {
+    "label": "Openness",
+    "subcomponents": [
+      {
+        "name": "Fantasy",
+        "questions": [
+          {
+            "id": 66,
+            "text": "How often do you find yourself daydreaming?",
+            "options": [
+              { "text": "Rarely — I focus on what's real", "value": 1 },
+              { "text": "Sometimes when I’m bored", "value": 2 },
+              { "text": "Frequently — I enjoy drifting into thought", "value": 3 },
+              { "text": "Very often — I get lost in vivid daydreams", "value": 4 }
+            ]
+          },
+          {
+            "id": 67,
+            "text": "When reading fiction, how do you respond?",
+            "options": [
+              { "text": "I don't read fiction", "value": 1 },
+              { "text": "I skim through it without much emotion", "value": 2 },
+              { "text": "I enjoy imagining the scenes and characters", "value": 3 },
+              { "text": "I immerse myself deeply and feel part of the story", "value": 4 }
+            ]
+          },
+          {
+            "id": 68,
+            "text": "How do you typically handle mundane tasks?",
+            "options": [
+              { "text": "I just get through them with no distractions", "value": 1 },
+              { "text": "I do them mechanically while thinking about other things", "value": 2 },
+              { "text": "I often entertain myself with imagination", "value": 3 },
+              { "text": "I mentally create stories or scenarios as I do them", "value": 4 }
+            ]
+          },
+          {
+            "id": 69,
+            "text": "If you had free time alone, what would you likely do?",
+            "options": [
+              { "text": "Watch TV or scroll through social media", "value": 1 },
+              { "text": "Tidy up or rest", "value": 2 },
+              { "text": "Draw, write, or imagine scenarios", "value": 3 },
+              { "text": "Create detailed imaginary worlds or stories", "value": 4 }
+            ]
+          },
+          {
+            "id": 70,
+            "text": "When someone shares a wild or imaginative idea, how do you react?",
+            "options": [
+              { "text": "I usually dismiss it as unrealistic", "value": 1 },
+              { "text": "I listen politely but don’t engage much", "value": 2 },
+              { "text": "I find it interesting and join in", "value": 3 },
+              { "text": "I love it — I add my own creative twists", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Aesthetics",
+        "questions": [
+          {
+            "id": 71,
+            "text": "How much do you enjoy visiting art galleries or museums?",
+            "options": [
+              { "text": "I avoid them — not my thing", "value": 1 },
+              { "text": "I’ll go if someone invites me", "value": 2 },
+              { "text": "I enjoy them and go occasionally", "value": 3 },
+              { "text": "I love them and seek them out often", "value": 4 }
+            ]
+          },
+          {
+            "id": 72,
+            "text": "How do you react to music or visual art?",
+            "options": [
+              { "text": "It rarely affects me emotionally", "value": 1 },
+              { "text": "I appreciate it mildly", "value": 2 },
+              { "text": "It often moves or inspires me", "value": 3 },
+              { "text": "I feel deeply emotionally affected", "value": 4 }
+            ]
+          },
+          {
+            "id": 73,
+            "text": "What kind of surroundings do you prefer?",
+            "options": [
+              { "text": "Functional and plain", "value": 1 },
+              { "text": "Simple with a few decorations", "value": 2 },
+              { "text": "Tasteful and aesthetically pleasing", "value": 3 },
+              { "text": "Colorful, artistic, and expressive", "value": 4 }
+            ]
+          },
+          {
+            "id": 74,
+            "text": "How important is beauty in everyday objects (like clothes or furniture)?",
+            "options": [
+              { "text": "Not important — I value practicality", "value": 1 },
+              { "text": "Somewhat important — nice if it looks good", "value": 2 },
+              { "text": "I notice and enjoy beautiful designs", "value": 3 },
+              { "text": "Very important — beauty influences my choices", "value": 4 }
+            ]
+          },
+          {
+            "id": 75,
+            "text": "How do you feel about abstract or experimental art?",
+            "options": [
+              { "text": "It’s confusing or meaningless to me", "value": 1 },
+              { "text": "I tolerate it but don’t get it", "value": 2 },
+              { "text": "I find it interesting and thought-provoking", "value": 3 },
+              { "text": "I’m fascinated by its depth and interpretation", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Feelings",
+        "questions": [
+          {
+            "id": 76,
+            "text": "How often are you aware of how you're feeling throughout the day?",
+            "options": [
+              { "text": "Rarely — I don’t pay attention to emotions", "value": 1 },
+              { "text": "Sometimes — I notice if they’re strong", "value": 2 },
+              { "text": "Often — I stay in touch with how I feel", "value": 3 },
+              { "text": "Very often — I’m highly aware of even subtle changes", "value": 4 }
+            ]
+          },
+          {
+            "id": 77,
+            "text": "When watching emotional movies or hearing stories, how do you react?",
+            "options": [
+              { "text": "I don’t feel much from them", "value": 1 },
+              { "text": "I feel slightly affected", "value": 2 },
+              { "text": "I feel emotionally moved and connected", "value": 3 },
+              { "text": "I become deeply involved and sometimes tear up", "value": 4 }
+            ]
+          },
+          {
+            "id": 78,
+            "text": "How comfortable are you expressing your emotions?",
+            "options": [
+              { "text": "I keep them to myself at all times", "value": 1 },
+              { "text": "I share only when it’s really necessary", "value": 2 },
+              { "text": "I express them when I feel safe to do so", "value": 3 },
+              { "text": "I openly express how I feel without much hesitation", "value": 4 }
+            ]
+          },
+          {
+            "id": 79,
+            "text": "How easy is it for you to describe your emotions in words?",
+            "options": [
+              { "text": "Very hard — I struggle to explain how I feel", "value": 1 },
+              { "text": "Somewhat difficult — I can describe basics", "value": 2 },
+              { "text": "Fairly easy — I can explain my emotions well", "value": 3 },
+              { "text": "Very easy — I’m articulate and detailed about feelings", "value": 4 }
+            ]
+          },
+          {
+            "id": 80,
+            "text": "How often do you reflect on your emotional experiences?",
+            "options": [
+              { "text": "Rarely — I prefer not to dwell on emotions", "value": 1 },
+              { "text": "Occasionally — only when something big happens", "value": 2 },
+              { "text": "Often — I think about how I felt and why", "value": 3 },
+              { "text": "Very often — I deeply reflect on all emotional moments", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Actions",
+        "questions": [
+          {
+            "id": 81,
+            "text": "How do you feel about trying unfamiliar foods?",
+            "options": [
+              { "text": "I stick to what I know and avoid new dishes", "value": 1 },
+              { "text": "I’ll try something new if I’m pressured", "value": 2 },
+              { "text": "I’m open to trying new things once in a while", "value": 3 },
+              { "text": "I actively seek out new and exotic foods", "value": 4 }
+            ]
+          },
+          {
+            "id": 82,
+            "text": "If someone invites you to an event you've never been to, what do you do?",
+            "options": [
+              { "text": "Politely decline — I prefer familiar routines", "value": 1 },
+              { "text": "Maybe — I’d consider it if I had company", "value": 2 },
+              { "text": "Accept — I enjoy exploring new things", "value": 3 },
+              { "text": "Say yes right away — I love new experiences", "value": 4 }
+            ]
+          },
+          {
+            "id": 83,
+            "text": "How often do you take different routes or visit unfamiliar places?",
+            "options": [
+              { "text": "Almost never — I like predictability", "value": 1 },
+              { "text": "Occasionally — if there’s a reason", "value": 2 },
+              { "text": "Frequently — I enjoy variety", "value": 3 },
+              { "text": "Very often — I purposely change routines to explore", "value": 4 }
+            ]
+          },
+          {
+            "id": 84,
+            "text": "What’s your approach to picking up new hobbies or skills?",
+            "options": [
+              { "text": "I rarely start anything new", "value": 1 },
+              { "text": "Only if I have to or someone suggests it", "value": 2 },
+              { "text": "I like trying new hobbies occasionally", "value": 3 },
+              { "text": "I constantly seek out new interests and challenges", "value": 4 }
+            ]
+          },
+          {
+            "id": 85,
+            "text": "When faced with change in life or work, how do you feel?",
+            "options": [
+              { "text": "Stressed and resistant", "value": 1 },
+              { "text": "Cautious and slow to adapt", "value": 2 },
+              { "text": "Open to it once I understand the benefits", "value": 3 },
+              { "text": "Excited and energized by it", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ideas",
+        "questions": [
+          {
+            "id": 86,
+            "text": "How do you feel about learning complex or abstract topics?",
+            "options": [
+              { "text": "I avoid them — they’re not for me", "value": 1 },
+              { "text": "I’ll engage only if I need to", "value": 2 },
+              { "text": "I find them interesting and worth exploring", "value": 3 },
+              { "text": "I actively seek out and enjoy deep topics", "value": 4 }
+            ]
+          },
+          {
+            "id": 87,
+            "text": "How do you approach new ideas that challenge your current beliefs?",
+            "options": [
+              { "text": "I reject them immediately", "value": 1 },
+              { "text": "I listen but usually dismiss them", "value": 2 },
+              { "text": "I consider them with an open mind", "value": 3 },
+              { "text": "I enjoy re-evaluating my beliefs through new ideas", "value": 4 }
+            ]
+          },
+          {
+            "id": 88,
+            "text": "When it comes to reading or media, you prefer:",
+            "options": [
+              { "text": "Light, simple entertainment", "value": 1 },
+              { "text": "Mostly casual but sometimes informative", "value": 2 },
+              { "text": "Thought-provoking and educational material", "value": 3 },
+              { "text": "Deep, challenging content that stimulates my thinking", "value": 4 }
+            ]
+          },
+          {
+            "id": 89,
+            "text": "How often do you engage in intellectual debates or discussions?",
+            "options": [
+              { "text": "Almost never — I don’t enjoy them", "value": 1 },
+              { "text": "Occasionally, if the topic interests me", "value": 2 },
+              { "text": "Often — I enjoy discussing ideas", "value": 3 },
+              { "text": "Very often — I actively seek out thoughtful debates", "value": 4 }
+            ]
+          },
+          {
+            "id": 90,
+            "text": "How do you feel about learning for its own sake (not for work or school)?",
+            "options": [
+              { "text": "I rarely do it — I prefer not to overthink", "value": 1 },
+              { "text": "Only if it’s immediately useful", "value": 2 },
+              { "text": "I enjoy learning in areas I’m passionate about", "value": 3 },
+              { "text": "I regularly learn new things out of pure curiosity", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Values",
+        "questions": [
+          {
+            "id": 91,
+            "text": "How do you respond to cultural beliefs different from your own?",
+            "options": [
+              { "text": "I avoid them — they feel uncomfortable", "value": 1 },
+              { "text": "I tolerate them but prefer my own", "value": 2 },
+              { "text": "I try to understand and respect them", "value": 3 },
+              { "text": "I embrace and enjoy learning from diverse views", "value": 4 }
+            ]
+          },
+          {
+            "id": 92,
+            "text": "When hearing a political or moral opinion you disagree with, you usually:",
+            "options": [
+              { "text": "Shut down and ignore it", "value": 1 },
+              { "text": "Let them talk but stick firmly to your views", "value": 2 },
+              { "text": "Listen and consider their point of view", "value": 3 },
+              { "text": "Engage openly and explore the reasoning behind it", "value": 4 }
+            ]
+          },
+          {
+            "id": 93,
+            "text": "How flexible are your personal beliefs over time?",
+            "options": [
+              { "text": "Very rigid — they rarely change", "value": 1 },
+              { "text": "Somewhat firm but open to new facts", "value": 2 },
+              { "text": "Moderately flexible — I update my views when needed", "value": 3 },
+              { "text": "Very flexible — I constantly re-evaluate my beliefs", "value": 4 }
+            ]
+          },
+          {
+            "id": 94,
+            "text": "How do you feel about rules or traditions you disagree with?",
+            "options": [
+              { "text": "I follow them anyway without question", "value": 1 },
+              { "text": "I follow them out of habit or expectation", "value": 2 },
+              { "text": "I question and may challenge them", "value": 3 },
+              { "text": "I often resist or reject outdated norms", "value": 4 }
+            ]
+          },
+          {
+            "id": 95,
+            "text": "How open are you to radically different lifestyles or belief systems?",
+            "options": [
+              { "text": "I’m uncomfortable and tend to avoid them", "value": 1 },
+              { "text": "I accept them from a distance", "value": 2 },
+              { "text": "I welcome and interact with diverse people", "value": 3 },
+              { "text": "I actively seek out diverse perspectives and learn from them", "value": 4 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+
+  "C": {
+  "label": "Conscientiousness",
+  "subcomponents": [
+    {
+      "name": "Orderliness",
+      "questions": [
+        {
+          "id": 1,
+          "text": "How do you typically maintain your workspace or room?",
+          "options": [
+            { "text": "I leave things where they fall, it's chaotic", "value": 1 },
+            { "text": "I clean occasionally but it gets messy fast", "value": 2 },
+            { "text": "I try to keep it organized most of the time", "value": 3 },
+            { "text": "Everything has its place and stays that way", "value": 4 }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "How do you handle your daily schedule?",
+          "options": [
+            { "text": "I don’t have a schedule, I go with the flow", "value": 1 },
+            { "text": "I set reminders for major tasks only", "value": 2 },
+            { "text": "I keep a to-do list and follow it most days", "value": 3 },
+            { "text": "I follow a strict, detailed routine daily", "value": 4 }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "What best describes your approach to cleaning and tidying?",
+          "options": [
+            { "text": "I clean only when it’s absolutely necessary", "value": 1 },
+            { "text": "I tidy up once a week or when guests come", "value": 2 },
+            { "text": "I like a neat environment and clean regularly", "value": 3 },
+            { "text": "I clean daily and feel uneasy if it’s messy", "value": 4 }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "When you're done using something, what do you usually do?",
+          "options": [
+            { "text": "Leave it where I used it", "value": 1 },
+            { "text": "Put it away later when I have time", "value": 2 },
+            { "text": "Usually put it back right away", "value": 3 },
+            { "text": "Always return it immediately to its spot", "value": 4 }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "How do you feel about clutter?",
+          "options": [
+            { "text": "I don’t even notice it", "value": 1 },
+            { "text": "It bothers me a little but I tolerate it", "value": 2 },
+            { "text": "I dislike clutter and try to reduce it", "value": 3 },
+            { "text": "I feel anxious unless everything is orderly", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Self-Discipline",
+      "questions": [
+        {
+          "id": 6,
+          "text": "How do you approach tasks that feel boring or repetitive?",
+          "options": [
+            { "text": "I avoid them as much as possible", "value": 1 },
+            { "text": "I do them only when there's no way around it", "value": 2 },
+            { "text": "I push through them most of the time", "value": 3 },
+            { "text": "I tackle them efficiently without procrastinating", "value": 4 }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "You're tempted to binge a show the night before a deadline. What do you do?",
+          "options": [
+            { "text": "Watch the show and ignore the deadline", "value": 1 },
+            { "text": "Watch but work late into the night", "value": 2 },
+            { "text": "Limit myself and plan to finish the task", "value": 3 },
+            { "text": "Skip the show and focus entirely on the task", "value": 4 }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "When faced with an unpleasant task, how do you respond?",
+          "options": [
+            { "text": "Ignore it and hope it goes away", "value": 1 },
+            { "text": "Delay it as long as I can", "value": 2 },
+            { "text": "Start it eventually and get it done", "value": 3 },
+            { "text": "Start it immediately to get it over with", "value": 4 }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "Do you stick to goals even when distractions arise?",
+          "options": [
+            { "text": "I give in easily to distractions", "value": 1 },
+            { "text": "I try to resist but often get sidetracked", "value": 2 },
+            { "text": "I manage to stay focused most of the time", "value": 3 },
+            { "text": "I remain focused and block out distractions", "value": 4 }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "How do you behave under pressure?",
+          "options": [
+            { "text": "I shut down and can't function", "value": 1 },
+            { "text": "I become anxious and work poorly", "value": 2 },
+            { "text": "I stay mostly calm and work steadily", "value": 3 },
+            { "text": "I thrive and perform at my best", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Dutifulness",
+      "questions": [
+        {
+          "id": 11,
+          "text": "If you promise someone something, what do you usually do?",
+          "options": [
+            { "text": "Often forget or ignore it", "value": 1 },
+            { "text": "Try, but sometimes forget", "value": 2 },
+            { "text": "Follow through unless something serious comes up", "value": 3 },
+            { "text": "Always keep my promises, no matter what", "value": 4 }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "How do you approach following rules or guidelines?",
+          "options": [
+            { "text": "I break them if I don’t like them", "value": 1 },
+            { "text": "I follow them when convenient", "value": 2 },
+            { "text": "I usually respect and follow them", "value": 3 },
+            { "text": "I strictly adhere to them", "value": 4 }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "Someone needs help and you're tired. What do you do?",
+          "options": [
+            { "text": "Avoid helping if possible", "value": 1 },
+            { "text": "Help only if asked repeatedly", "value": 2 },
+            { "text": "Try to help if I can", "value": 3 },
+            { "text": "Help right away because it's the right thing", "value": 4 }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "How do you view your responsibilities?",
+          "options": [
+            { "text": "I often neglect them", "value": 1 },
+            { "text": "I do them reluctantly", "value": 2 },
+            { "text": "I take them seriously", "value": 3 },
+            { "text": "I feel morally bound to fulfill them", "value": 4 }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "You’re running late but someone asks for help. What’s your response?",
+          "options": [
+            { "text": "Ignore them and rush off", "value": 1 },
+            { "text": "Apologize and decline to help", "value": 2 },
+            { "text": "Try to help briefly", "value": 3 },
+            { "text": "Help them even if I’ll be later", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Achievement-Striving",
+      "questions": [
+        {
+          "id": 16,
+          "text": "How would you describe your ambition?",
+          "options": [
+            { "text": "I avoid big goals", "value": 1 },
+            { "text": "I have goals but often give up", "value": 2 },
+            { "text": "I set and pursue realistic goals", "value": 3 },
+            { "text": "I set high goals and work hard to reach them", "value": 4 }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "How often do you challenge yourself?",
+          "options": [
+            { "text": "Rarely – I like it easy", "value": 1 },
+            { "text": "Only if I have to", "value": 2 },
+            { "text": "Sometimes – it depends on my mood", "value": 3 },
+            { "text": "Regularly – I thrive on challenge", "value": 4 }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "What motivates you in your work or projects?",
+          "options": [
+            { "text": "Avoiding failure", "value": 1 },
+            { "text": "Meeting minimum expectations", "value": 2 },
+            { "text": "Doing a good job", "value": 3 },
+            { "text": "Exceeding expectations and achieving excellence", "value": 4 }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "You’re assigned a difficult goal. How do you react?",
+          "options": [
+            { "text": "Feel overwhelmed and disengage", "value": 1 },
+            { "text": "Worry but attempt it anyway", "value": 2 },
+            { "text": "Break it down and work steadily", "value": 3 },
+            { "text": "Get excited and dive in", "value": 4 }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "How do you prepare for important tasks?",
+          "options": [
+            { "text": "I don’t – I wing it", "value": 1 },
+            { "text": "I cram at the last minute", "value": 2 },
+            { "text": "I plan ahead reasonably", "value": 3 },
+            { "text": "I create a clear, structured plan", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Cautiousness",
+      "questions": [
+        {
+          "id": 21,
+          "text": "How do you approach big decisions?",
+          "options": [
+            { "text": "Make them impulsively", "value": 1 },
+            { "text": "Make them quickly, with minimal thought", "value": 2 },
+            { "text": "Think them through logically", "value": 3 },
+            { "text": "Carefully analyze every option first", "value": 4 }
+          ]
+        },
+        {
+          "id": 22,
+          "text": "You see a new investment opportunity. What do you do?",
+          "options": [
+            { "text": "Jump in immediately", "value": 1 },
+            { "text": "Try it with little research", "value": 2 },
+            { "text": "Do some due diligence", "value": 3 },
+            { "text": "Research deeply before committing", "value": 4 }
+          ]
+        },
+        {
+          "id": 23,
+          "text": "How often do you think about long-term consequences?",
+          "options": [
+            { "text": "Rarely", "value": 1 },
+            { "text": "Occasionally", "value": 2 },
+            { "text": "Frequently", "value": 3 },
+            { "text": "Always", "value": 4 }
+          ]
+        },
+        {
+          "id": 24,
+          "text": "Your friends are making a spontaneous decision. How do you respond?",
+          "options": [
+            { "text": "Join immediately", "value": 1 },
+            { "text": "Go along with mild hesitation", "value": 2 },
+            { "text": "Consider pros and cons first", "value": 3 },
+            { "text": "Decline until I have full info", "value": 4 }
+          ]
+        },
+        {
+          "id": 25,
+          "text": "You’re asked to sign something unfamiliar. What do you do?",
+          "options": [
+            { "text": "Sign without reading", "value": 1 },
+            { "text": "Skim and sign", "value": 2 },
+            { "text": "Read it carefully", "value": 3 },
+            { "text": "Ask questions and research first", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Industriousness",
+      "questions": [
+        {
+          "id": 26,
+          "text": "How would you describe your work habits?",
+          "options": [
+            { "text": "Disorganized and inconsistent", "value": 1 },
+            { "text": "Sometimes productive, sometimes lazy", "value": 2 },
+            { "text": "Generally focused and consistent", "value": 3 },
+            { "text": "Highly focused and persistent", "value": 4 }
+          ]
+        },
+        {
+          "id": 27,
+          "text": "How do you handle a long to-do list?",
+          "options": [
+            { "text": "Ignore most of it", "value": 1 },
+            { "text": "Do a few easy tasks only", "value": 2 },
+            { "text": "Tackle tasks one by one", "value": 3 },
+            { "text": "Systematically power through it", "value": 4 }
+          ]
+        },
+        {
+          "id": 28,
+          "text": "How productive are you throughout a workday?",
+          "options": [
+            { "text": "I waste most of the time", "value": 1 },
+            { "text": "I get distracted often", "value": 2 },
+            { "text": "I work steadily with short breaks", "value": 3 },
+            { "text": "I stay on task for hours", "value": 4 }
+          ]
+        },
+        {
+          "id": 29,
+          "text": "How often do you procrastinate?",
+          "options": [
+            { "text": "All the time", "value": 1 },
+            { "text": "Often, but I try not to", "value": 2 },
+            { "text": "Occasionally, but I recover quickly", "value": 3 },
+            { "text": "Rarely or never", "value": 4 }
+          ]
+        },
+        {
+          "id": 30,
+          "text": "How do you complete large tasks?",
+          "options": [
+            { "text": "I usually don’t", "value": 1 },
+            { "text": "I do the minimum", "value": 2 },
+            { "text": "I complete them over time", "value": 3 },
+            { "text": "I break them down and complete everything thoroughly", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Deliberation",
+      "questions": [
+        {
+          "id": 31,
+          "text": "You receive an exciting job offer in another city. How quickly do you decide?",
+          "options": [
+            { "text": "Accept on the spot—opportunities are fleeting", "value": 1 },
+            { "text": "Decide within hours after a quick search", "value": 2 },
+            { "text": "Take a few days to weigh pros and cons", "value": 3 },
+            { "text": "Create a detailed comparison chart before choosing", "value": 4 }
+          ]
+        },
+        {
+          "id": 32,
+          "text": "A friend suggests an unfamiliar investment. What is your first move?",
+          "options": [
+            { "text": "Invest immediately—why not?", "value": 1 },
+            { "text": "Skim a blog or two, then decide", "value": 2 },
+            { "text": "Read expert reviews and evaluate risks", "value": 3 },
+            { "text": "Study financial reports and consult professionals", "value": 4 }
+          ]
+        },
+        {
+          "id": 33,
+          "text": "How do you choose major purchases (e.g., a new laptop)?",
+          "options": [
+            { "text": "Buy the first model that looks good", "value": 1 },
+            { "text": "Check one or two reviews, then buy", "value": 2 },
+            { "text": "Compare several models and prices", "value": 3 },
+            { "text": "Make a spreadsheet of specs, ratings, and warranties", "value": 4 }
+          ]
+        },
+        {
+          "id": 34,
+          "text": "When planning a weekend trip, you usually:",
+          "options": [
+            { "text": "Head out with no itinerary—spontaneity rules", "value": 1 },
+            { "text": "Book transport and improvise the rest", "value": 2 },
+            { "text": "Reserve lodging and list key activities", "value": 3 },
+            { "text": "Create a detailed schedule including budgets and backups", "value": 4 }
+          ]
+        },
+        {
+          "id": 35,
+          "text": "A risky shortcut could save time on an assignment. What do you do?",
+          "options": [
+            { "text": "Take it without hesitation", "value": 1 },
+            { "text": "Try it, hoping problems won’t arise", "value": 2 },
+            { "text": "Assess possible downsides before deciding", "value": 3 },
+            { "text": "Reject it unless the benefits clearly outweigh the risks", "value": 4 }
+          ]
+        }
+      ]
+    }
+  ]
+},
+"E": {
+  "label": "Extraversion",
+  "subcomponents": [
+
+    {
+      "name": "Warmth",
+      "questions": [
+        {
+          "id": 36,
+          "text": "How do you typically greet someone you've just met?",
+          "options": [
+            { "text": "I avoid eye contact and hope they don't talk to me", "value": 1 },
+            { "text": "I nod or smile briefly", "value": 2 },
+            { "text": "I greet them with a friendly hello", "value": 3 },
+            { "text": "I smile warmly and engage in light conversation", "value": 4 }
+          ]
+        },
+        {
+          "id": 37,
+          "text": "How do you act when someone is clearly upset?",
+          "options": [
+            { "text": "I try to avoid getting involved", "value": 1 },
+            { "text": "I feel bad but usually stay quiet", "value": 2 },
+            { "text": "I offer some comfort or kind words", "value": 3 },
+            { "text": "I actively listen and try to support them emotionally", "value": 4 }
+          ]
+        },
+        {
+          "id": 38,
+          "text": "How easily do you warm up to new people?",
+          "options": [
+            { "text": "It takes me a long time", "value": 1 },
+            { "text": "I open up gradually over time", "value": 2 },
+            { "text": "I get along with most people fairly quickly", "value": 3 },
+            { "text": "I feel comfortable around people right away", "value": 4 }
+          ]
+        },
+        {
+          "id": 39,
+          "text": "What do you do when you run into a neighbor or acquaintance?",
+          "options": [
+            { "text": "Avoid them or walk away", "value": 1 },
+            { "text": "Give a quick wave and move on", "value": 2 },
+            { "text": "Say hello and exchange a few words", "value": 3 },
+            { "text": "Stop to chat and ask how they’re doing", "value": 4 }
+          ]
+        },
+        {
+          "id": 40,
+          "text": "When a friend shares good news, how do you respond?",
+          "options": [
+            { "text": "Nod and say 'cool'", "value": 1 },
+            { "text": "Say 'nice' and change the topic", "value": 2 },
+            { "text": "Congratulate them sincerely", "value": 3 },
+            { "text": "Get excited with them and show genuine happiness", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Gregariousness",
+      "questions": [
+        {
+          "id": 41,
+          "text": "How do you feel about spending time in large groups?",
+          "options": [
+            { "text": "I avoid them whenever possible", "value": 1 },
+            { "text": "I can handle them but prefer smaller groups", "value": 2 },
+            { "text": "I enjoy them occasionally", "value": 3 },
+            { "text": "I thrive in large group settings", "value": 4 }
+          ]
+        },
+        {
+          "id": 42,
+          "text": "How often do you initiate social plans with others?",
+          "options": [
+            { "text": "Almost never", "value": 1 },
+            { "text": "Only if I really need to", "value": 2 },
+            { "text": "Sometimes when I'm in the mood", "value": 3 },
+            { "text": "Regularly — I love planning meetups", "value": 4 }
+          ]
+        },
+        {
+          "id": 43,
+          "text": "What’s your ideal way to spend a Friday night?",
+          "options": [
+            { "text": "Alone with a book or TV", "value": 1 },
+            { "text": "One-on-one time with a close friend", "value": 2 },
+            { "text": "Hanging out in a small group", "value": 3 },
+            { "text": "Attending a big social event or party", "value": 4 }
+          ]
+        },
+        {
+          "id": 44,
+          "text": "At a networking event, what do you do?",
+          "options": [
+            { "text": "Stick to the wall and hope to leave early", "value": 1 },
+            { "text": "Talk to one or two familiar faces", "value": 2 },
+            { "text": "Chat with a few new people comfortably", "value": 3 },
+            { "text": "Move around engaging everyone enthusiastically", "value": 4 }
+          ]
+        },
+        {
+          "id": 45,
+          "text": "How do you feel after a day full of social interaction?",
+          "options": [
+            { "text": "Drained and mentally exhausted", "value": 1 },
+            { "text": "A bit tired, but okay", "value": 2 },
+            { "text": "Energized, usually in a good mood", "value": 3 },
+            { "text": "Buzzing and motivated for more", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Assertiveness",
+      "questions": [
+        {
+          "id": 46,
+          "text": "In group discussions, how often do you voice your opinions?",
+          "options": [
+            { "text": "Almost never — I stay quiet", "value": 1 },
+            { "text": "Only when asked directly", "value": 2 },
+            { "text": "Often — I share my perspective", "value": 3 },
+            { "text": "Regularly — I lead the conversation", "value": 4 }
+          ]
+        },
+        {
+          "id": 47,
+          "text": "How do you respond when someone cuts in line ahead of you?",
+          "options": [
+            { "text": "Say nothing and let it go", "value": 1 },
+            { "text": "Grumble to yourself but don’t say anything", "value": 2 },
+            { "text": "Politely ask them to go to the back", "value": 3 },
+            { "text": "Firmly confront them without hesitation", "value": 4 }
+          ]
+        },
+        {
+          "id": 48,
+          "text": "What role do you usually take in team settings?",
+          "options": [
+            { "text": "A quiet observer", "value": 1 },
+            { "text": "A helper who follows direction", "value": 2 },
+            { "text": "An active participant with ideas", "value": 3 },
+            { "text": "A leader who takes charge", "value": 4 }
+          ]
+        },
+        {
+          "id": 49,
+          "text": "How comfortable are you speaking up in front of a crowd?",
+          "options": [
+            { "text": "Extremely uncomfortable — I avoid it", "value": 1 },
+            { "text": "Somewhat uncomfortable but willing", "value": 2 },
+            { "text": "Fairly comfortable", "value": 3 },
+            { "text": "Very confident — I enjoy it", "value": 4 }
+          ]
+        },
+        {
+          "id": 50,
+          "text": "When decisions need to be made quickly, what do you do?",
+          "options": [
+            { "text": "Wait for others to decide", "value": 1 },
+            { "text": "Share input only if asked", "value": 2 },
+            { "text": "Offer ideas and support a decision", "value": 3 },
+            { "text": "Step up and drive the decision-making", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Activity Level",
+      "questions": [
+        {
+          "id": 51,
+          "text": "How do you usually spend a free weekend?",
+          "options": [
+            { "text": "Relaxing at home with minimal plans", "value": 1 },
+            { "text": "One or two casual activities", "value": 2 },
+            { "text": "A mix of chores, outings, and errands", "value": 3 },
+            { "text": "Packed with events, meetups, and projects", "value": 4 }
+          ]
+        },
+        {
+          "id": 52,
+          "text": "What pace do you prefer during a typical day?",
+          "options": [
+            { "text": "Slow and relaxed", "value": 1 },
+            { "text": "Moderate with breaks", "value": 2 },
+            { "text": "Busy but manageable", "value": 3 },
+            { "text": "Fast-paced and fully scheduled", "value": 4 }
+          ]
+        },
+        {
+          "id": 53,
+          "text": "How often do you find yourself multitasking?",
+          "options": [
+            { "text": "Rarely — I focus on one thing or do nothing", "value": 1 },
+            { "text": "Occasionally when necessary", "value": 2 },
+            { "text": "Frequently during busy periods", "value": 3 },
+            { "text": "Constantly — it’s how I operate", "value": 4 }
+          ]
+        },
+        {
+          "id": 54,
+          "text": "How do you respond to long periods of inactivity?",
+          "options": [
+            { "text": "I enjoy them and feel comfortable", "value": 1 },
+            { "text": "They’re okay now and then", "value": 2 },
+            { "text": "They make me restless", "value": 3 },
+            { "text": "I get agitated and need to do something", "value": 4 }
+          ]
+        },
+        {
+          "id": 55,
+          "text": "How energized do you feel throughout the day?",
+          "options": [
+            { "text": "I often feel low-energy or tired", "value": 1 },
+            { "text": "I’m somewhat alert but need downtime", "value": 2 },
+            { "text": "I have steady energy most of the day", "value": 3 },
+            { "text": "I’m full of energy from morning to night", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Excitement-Seeking",
+      "questions": [
+        {
+          "id": 56,
+          "text": "How do you feel about trying extreme activities like skydiving or bungee jumping?",
+          "options": [
+            { "text": "Absolutely not — too scary", "value": 1 },
+            { "text": "Maybe, if pushed by others", "value": 2 },
+            { "text": "I’d try it once out of curiosity", "value": 3 },
+            { "text": "Love it — I actively seek that kind of thrill", "value": 4 }
+          ]
+        },
+        {
+          "id": 57,
+          "text": "How often do you crave new and intense experiences?",
+          "options": [
+            { "text": "Rarely — I prefer peace and routine", "value": 1 },
+            { "text": "Occasionally — if I’m in the mood", "value": 2 },
+            { "text": "Often — I get bored with repetition", "value": 3 },
+            { "text": "Very frequently — I chase novelty constantly", "value": 4 }
+          ]
+        },
+        {
+          "id": 58,
+          "text": "When choosing entertainment, you prefer:",
+          "options": [
+            { "text": "Quiet, relaxing activities", "value": 1 },
+            { "text": "Familiar movies or shows", "value": 2 },
+            { "text": "Lively or unpredictable shows", "value": 3 },
+            { "text": "Loud, fast-paced, or intense experiences", "value": 4 }
+          ]
+        },
+        {
+          "id": 59,
+          "text": "Your ideal vacation involves:",
+          "options": [
+            { "text": "Staying in and resting", "value": 1 },
+            { "text": "Exploring local sights calmly", "value": 2 },
+            { "text": "Doing a variety of fun things each day", "value": 3 },
+            { "text": "Adventures, adrenaline, and spontaneity", "value": 4 }
+          ]
+        },
+        {
+          "id": 60,
+          "text": "How do you react to unexpected opportunities (e.g., last-minute travel)?",
+          "options": [
+            { "text": "Decline — I don’t like surprises", "value": 1 },
+            { "text": "Hesitate but might say yes", "value": 2 },
+            { "text": "Usually say yes and enjoy it", "value": 3 },
+            { "text": "Jump in enthusiastically", "value": 4 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Cheerfulness",
+      "questions": [
+        {
+          "id": 61,
+          "text": "How often do you feel genuinely joyful during your day?",
+          "options": [
+            { "text": "Rarely — most days feel flat", "value": 1 },
+            { "text": "Occasionally — but not regularly", "value": 2 },
+            { "text": "Often — I notice plenty of happy moments", "value": 3 },
+            { "text": "Very often — I feel upbeat almost all the time", "value": 4 }
+          ]
+        },
+        {
+          "id": 62,
+          "text": "How would friends describe your emotional outlook?",
+          "options": [
+            { "text": "Serious or reserved", "value": 1 },
+            { "text": "Even-tempered but quiet", "value": 2 },
+            { "text": "Generally upbeat and pleasant", "value": 3 },
+            { "text": "Cheerful, enthusiastic, and positive", "value": 4 }
+          ]
+        },
+        {
+          "id": 63,
+          "text": "What’s your reaction when something small goes well (e.g., sunny day, compliment)?",
+          "options": [
+            { "text": "I barely react", "value": 1 },
+            { "text": "I smile slightly or say thanks", "value": 2 },
+            { "text": "I feel noticeably better", "value": 3 },
+            { "text": "It lifts my mood significantly", "value": 4 }
+          ]
+        },
+        {
+          "id": 64,
+          "text": "During conversations, how do you typically express yourself?",
+          "options": [
+            { "text": "I keep a neutral tone", "value": 1 },
+            { "text": "I speak calmly with occasional emotion", "value": 2 },
+            { "text": "I speak with energy and positivity", "value": 3 },
+            { "text": "I’m animated and enthusiastic", "value": 4 }
+          ]
+        },
+        {
+          "id": 65,
+          "text": "How do you feel when others around you are laughing or having fun?",
+          "options": [
+            { "text": "I feel disconnected", "value": 1 },
+            { "text": "I enjoy seeing it, but stay quiet", "value": 2 },
+            { "text": "I usually join in and smile", "value": 3 },
+            { "text": "I naturally join the fun and amplify it", "value": 4 }
+          ]
+        }
+      ]
+    }
+
+  ]
+},
+  "A": {
+    "label": "Agreeableness",
+    "subcomponents": [
+      {
+        "name": "Trust",
+        "questions": [
+          {
+            "id": 96,
+            "text": "How do you generally view other people's intentions?",
+            "options": [
+              { "text": "I assume people are selfish or deceitful", "value": 1 },
+              { "text": "I stay cautious — trust must be earned", "value": 2 },
+              { "text": "I give people the benefit of the doubt", "value": 3 },
+              { "text": "I naturally believe most people are honest and kind", "value": 4 }
+            ]
+          },
+          {
+            "id": 97,
+            "text": "How do you respond when someone offers unsolicited help?",
+            "options": [
+              { "text": "I assume they want something in return", "value": 1 },
+              { "text": "I’m skeptical and wonder about their motives", "value": 2 },
+              { "text": "I accept it with some caution", "value": 3 },
+              { "text": "I welcome it and believe it's genuine", "value": 4 }
+            ]
+          },
+          {
+            "id": 98,
+            "text": "When you hear a rumor about someone, what’s your reaction?",
+            "options": [
+              { "text": "I believe it immediately", "value": 1 },
+              { "text": "I tend to assume it's probably true", "value": 2 },
+              { "text": "I withhold judgment until I know more", "value": 3 },
+              { "text": "I doubt it unless I hear it directly from the person", "value": 4 }
+            ]
+          },
+          {
+            "id": 99,
+            "text": "How do you feel about sharing personal thoughts with others?",
+            "options": [
+              { "text": "I rarely open up — people can’t be trusted", "value": 1 },
+              { "text": "I’m careful and selective", "value": 2 },
+              { "text": "I share when I sense someone is trustworthy", "value": 3 },
+              { "text": "I’m comfortable opening up to most people", "value": 4 }
+            ]
+          },
+          {
+            "id": 100,
+            "text": "When working with new people, what’s your starting mindset?",
+            "options": [
+              { "text": "Assume the worst and protect myself", "value": 1 },
+              { "text": "Neutral, but wary of betrayal", "value": 2 },
+              { "text": "Hopeful and observant", "value": 3 },
+              { "text": "Optimistic — I believe they’ll do their part", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Morality",
+        "questions": [
+          {
+            "id": 101,
+            "text": "How honest are you in everyday interactions (e.g., returning extra change)?",
+            "options": [
+              { "text": "I keep it — it’s their mistake", "value": 1 },
+              { "text": "I might return it, depending on the situation", "value": 2 },
+              { "text": "I usually return it, even if it’s inconvenient", "value": 3 },
+              { "text": "I always return it immediately", "value": 4 }
+            ]
+          },
+          {
+            "id": 102,
+            "text": "Would you lie to benefit yourself if you knew you wouldn't get caught?",
+            "options": [
+              { "text": "Absolutely — if it helps me", "value": 1 },
+              { "text": "Maybe — it depends how serious it is", "value": 2 },
+              { "text": "Unlikely — I’d feel guilty", "value": 3 },
+              { "text": "Never — honesty is non-negotiable", "value": 4 }
+            ]
+          },
+          {
+            "id": 103,
+            "text": "How often do you pretend to be someone you're not?",
+            "options": [
+              { "text": "Often — it helps me get ahead", "value": 1 },
+              { "text": "Sometimes — to fit in or avoid judgment", "value": 2 },
+              { "text": "Rarely — I value being authentic", "value": 3 },
+              { "text": "Never — I always present myself truthfully", "value": 4 }
+            ]
+          },
+          {
+            "id": 104,
+            "text": "How do you behave when no one is watching?",
+            "options": [
+              { "text": "I do what I want — no one's judging", "value": 1 },
+              { "text": "I follow rules only if I think they're important", "value": 2 },
+              { "text": "I try to act in line with my values", "value": 3 },
+              { "text": "I hold myself to the same standard at all times", "value": 4 }
+            ]
+          },
+          {
+            "id": 105,
+            "text": "When negotiating or in business, how do you approach honesty?",
+            "options": [
+              { "text": "I bend the truth to gain advantage", "value": 1 },
+              { "text": "I exaggerate when needed", "value": 2 },
+              { "text": "I try to be as fair and honest as possible", "value": 3 },
+              { "text": "I am fully transparent and ethical, even at a cost", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Altruism",
+        "questions": [
+          {
+            "id": 106,
+            "text": "How do you react when someone you know is in distress?",
+            "options": [
+              { "text": "I avoid getting involved", "value": 1 },
+              { "text": "I offer help if it’s convenient", "value": 2 },
+              { "text": "I try to help however I can", "value": 3 },
+              { "text": "I actively go out of my way to support them", "value": 4 }
+            ]
+          },
+          {
+            "id": 107,
+            "text": "How do you feel when doing favors for others?",
+            "options": [
+              { "text": "It annoys me", "value": 1 },
+              { "text": "I do it reluctantly", "value": 2 },
+              { "text": "I feel satisfied helping", "value": 3 },
+              { "text": "I feel genuinely fulfilled when I help", "value": 4 }
+            ]
+          },
+          {
+            "id": 108,
+            "text": "If a stranger asks you for directions, how do you respond?",
+            "options": [
+              { "text": "I ignore or avoid them", "value": 1 },
+              { "text": "I give a quick answer if I know", "value": 2 },
+              { "text": "I politely help and try to be clear", "value": 3 },
+              { "text": "I go out of my way to make sure they understand", "value": 4 }
+            ]
+          },
+          {
+            "id": 109,
+            "text": "How often do you volunteer or help in your community?",
+            "options": [
+              { "text": "Never — it’s not something I do", "value": 1 },
+              { "text": "Rarely — only when asked", "value": 2 },
+              { "text": "Sometimes — when I have time", "value": 3 },
+              { "text": "Regularly — I seek out ways to help", "value": 4 }
+            ]
+          },
+          {
+            "id": 110,
+            "text": "How do you feel about giving your time or resources without reward?",
+            "options": [
+              { "text": "Uncomfortable — I need something in return", "value": 1 },
+              { "text": "I’ll do it occasionally", "value": 2 },
+              { "text": "I’m happy to help when I can", "value": 3 },
+              { "text": "I genuinely enjoy giving without expecting anything", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Cooperation",
+        "questions": [
+          {
+            "id": 111,
+            "text": "How do you handle disagreements with others?",
+            "options": [
+              { "text": "I argue until I get my way", "value": 1 },
+              { "text": "I defend my view even if it causes conflict", "value": 2 },
+              { "text": "I try to find middle ground", "value": 3 },
+              { "text": "I prioritize harmony and compromise willingly", "value": 4 }
+            ]
+          },
+          {
+            "id": 112,
+            "text": "When working on group projects, how do you behave?",
+            "options": [
+              { "text": "I insist on doing things my way", "value": 1 },
+              { "text": "I cooperate only if others do too", "value": 2 },
+              { "text": "I contribute fairly and respect others’ ideas", "value": 3 },
+              { "text": "I make extra effort to ensure everyone works well together", "value": 4 }
+            ]
+          },
+          {
+            "id": 113,
+            "text": "How do you respond when someone is being difficult?",
+            "options": [
+              { "text": "I get frustrated and push back", "value": 1 },
+              { "text": "I tolerate them with irritation", "value": 2 },
+              { "text": "I stay calm and try to de-escalate", "value": 3 },
+              { "text": "I remain patient and focus on maintaining peace", "value": 4 }
+            ]
+          },
+          {
+            "id": 114,
+            "text": "How important is it to you to avoid conflict?",
+            "options": [
+              { "text": "Not important — I speak my mind regardless", "value": 1 },
+              { "text": "Somewhat important — but I won't back down easily", "value": 2 },
+              { "text": "Fairly important — I value civility", "value": 3 },
+              { "text": "Very important — I go out of my way to avoid arguments", "value": 4 }
+            ]
+          },
+          {
+            "id": 115,
+            "text": "If someone makes a mistake on a shared task, how do you react?",
+            "options": [
+              { "text": "I criticize them harshly", "value": 1 },
+              { "text": "I point it out bluntly", "value": 2 },
+              { "text": "I give constructive feedback respectfully", "value": 3 },
+              { "text": "I offer help and focus on fixing it together", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Modesty",
+        "questions": [
+          {
+            "id": 116,
+            "text": "How do you respond to compliments about your achievements?",
+            "options": [
+              { "text": "I agree and talk more about them", "value": 1 },
+              { "text": "I thank them and mention my strengths", "value": 2 },
+              { "text": "I acknowledge but downplay the praise", "value": 3 },
+              { "text": "I redirect attention and give credit to others", "value": 4 }
+            ]
+          },
+          {
+            "id": 117,
+            "text": "When discussing your successes, how do you behave?",
+            "options": [
+              { "text": "I highlight them often and proudly", "value": 1 },
+              { "text": "I don’t hide them and speak freely", "value": 2 },
+              { "text": "I mention them only when relevant", "value": 3 },
+              { "text": "I avoid talking about them and stay humble", "value": 4 }
+            ]
+          },
+          {
+            "id": 118,
+            "text": "How do you feel in competitive environments?",
+            "options": [
+              { "text": "I want to dominate and prove I'm the best", "value": 1 },
+              { "text": "I enjoy standing out from others", "value": 2 },
+              { "text": "I do my best but stay grounded", "value": 3 },
+              { "text": "I avoid bragging even if I perform well", "value": 4 }
+            ]
+          },
+          {
+            "id": 119,
+            "text": "How do you present yourself in social settings?",
+            "options": [
+              { "text": "I try to impress others with my accomplishments", "value": 1 },
+              { "text": "I let people know what I’ve done when it helps", "value": 2 },
+              { "text": "I stay confident but not showy", "value": 3 },
+              { "text": "I avoid drawing attention to myself", "value": 4 }
+            ]
+          },
+          {
+            "id": 120,
+            "text": "When others fail or underperform, how do you feel?",
+            "options": [
+              { "text": "Proud that I’m better than them", "value": 1 },
+              { "text": "Secretly pleased that I look good by comparison", "value": 2 },
+              { "text": "Compassionate but quietly confident in myself", "value": 3 },
+              { "text": "Humble and empathetic — I focus on helping", "value": 4 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Sympathy",
+        "questions": [
+          {
+            "id": 121,
+            "text": "How do you respond when you see someone in pain or distress?",
+            "options": [
+              { "text": "I try not to get emotionally involved", "value": 1 },
+              { "text": "I feel a little bad but move on quickly", "value": 2 },
+              { "text": "I feel concerned and often offer support", "value": 3 },
+              { "text": "I feel deeply affected and want to help right away", "value": 4 }
+            ]
+          },
+          {
+            "id": 122,
+            "text": "How easily do you get emotionally affected by stories of suffering (e.g., in the news)?",
+            "options": [
+              { "text": "I’m mostly unaffected", "value": 1 },
+              { "text": "I notice it, but don’t dwell on it", "value": 2 },
+              { "text": "I feel emotionally impacted", "value": 3 },
+              { "text": "I feel moved and sometimes brought to tears", "value": 4 }
+            ]
+          },
+          {
+            "id": 123,
+            "text": "When someone shares a personal problem with you, how do you respond?",
+            "options": [
+              { "text": "I avoid the conversation or change the subject", "value": 1 },
+              { "text": "I listen briefly but don’t engage much", "value": 2 },
+              { "text": "I listen and try to show empathy", "value": 3 },
+              { "text": "I listen fully and try to emotionally support them", "value": 4 }
+            ]
+          },
+          {
+            "id": 124,
+            "text": "How often do you feel concerned about people you don’t know personally (e.g., refugees, the homeless)?",
+            "options": [
+              { "text": "Rarely — it doesn’t affect me", "value": 1 },
+              { "text": "Occasionally — but I try not to dwell on it", "value": 2 },
+              { "text": "Often — I think about how I could help", "value": 3 },
+              { "text": "Very often — I feel strong emotional concern for them", "value": 4 }
+            ]
+          },
+          {
+            "id": 125,
+            "text": "How would others describe your emotional sensitivity to suffering?",
+            "options": [
+              { "text": "Detached or indifferent", "value": 1 },
+              { "text": "Reasonable but not emotional", "value": 2 },
+              { "text": "Caring and sympathetic", "value": 3 },
+              { "text": "Highly compassionate and deeply moved", "value": 4 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "N": {
+  "label": "Neuroticism",
+  "subcomponents": [
+    {
+      "name": "Anxiety",
+      "questions": [
+        {
+          "id": 126,
+          "text": "How often do you feel tense or on edge for no specific reason?",
+          "options": [
+            { "text": "Rarely — I’m usually relaxed", "value": 1 },
+            { "text": "Occasionally — if I’m under pressure", "value": 2 },
+            { "text": "Often — even during normal situations", "value": 3 },
+            { "text": "Very often — I’m almost always anxious or tense", "value": 4 }
+          ]
+        },
+        {
+          "id": 127,
+          "text": "How do you physically respond to stressful situations?",
+          "options": [
+            { "text": "I stay calm and unaffected", "value": 1 },
+            { "text": "I feel a little nervous, but handle it well", "value": 2 },
+            { "text": "My heart races and I get jittery", "value": 3 },
+            { "text": "I get very tense, shaky, or overwhelmed", "value": 4 }
+          ]
+        },
+        {
+          "id": 128,
+          "text": "When you're waiting for news (e.g., test results), how do you feel?",
+          "options": [
+            { "text": "I remain calm and trust the outcome", "value": 1 },
+            { "text": "I get mildly nervous", "value": 2 },
+            { "text": "I feel anxious and check constantly", "value": 3 },
+            { "text": "I obsess over it and expect the worst", "value": 4 }
+          ]
+        },
+        {
+          "id": 129,
+          "text": "How much does uncertainty make you feel nervous or uneasy?",
+          "options": [
+            { "text": "Not at all — I’m comfortable with the unknown", "value": 1 },
+            { "text": "A little — it makes me cautious", "value": 2 },
+            { "text": "Quite a bit — I worry when things aren’t clear", "value": 3 },
+            { "text": "A lot — I feel very uneasy with uncertainty", "value": 4 }
+          ]
+        },
+        {
+          "id": 130,
+          "text": "How often do you feel worried even when things seem fine?",
+          "options": [
+            { "text": "Almost never", "value": 1 },
+            { "text": "Sometimes — if there’s a lot going on", "value": 2 },
+            { "text": "Frequently — my mind often jumps to worst-case scenarios", "value": 3 },
+            { "text": "Very frequently — I’m always anticipating problems", "value": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Anger",
+      "questions": [
+        {
+          "id": 131,
+          "text": "How do you usually react when someone cuts you off in traffic or interrupts you?",
+          "options": [
+            { "text": "I stay calm — it doesn’t bother me much", "value": 1 },
+            { "text": "I feel annoyed but let it go", "value": 2 },
+            { "text": "I get visibly irritated or say something", "value": 3 },
+            { "text": "I get very angry and stay upset for a while", "value": 4 }
+          ]
+        },
+        {
+          "id": 132,
+          "text": "How quickly do you lose your temper in frustrating situations?",
+          "options": [
+            { "text": "Very slowly — I rarely lose my temper", "value": 1 },
+            { "text": "It builds up gradually", "value": 2 },
+            { "text": "Fairly quickly — I have a short fuse", "value": 3 },
+            { "text": "Very quickly — I often snap before I think", "value": 4 }
+          ]
+        },
+        {
+          "id": 133,
+          "text": "When someone disagrees with you strongly, how do you feel?",
+          "options": [
+            { "text": "Fine — everyone has a right to their opinion", "value": 1 },
+            { "text": "Slightly irritated but respectful", "value": 2 },
+            { "text": "Frustrated and defensive", "value": 3 },
+            { "text": "Very angry — I feel personally attacked", "value": 4 }
+          ]
+        },
+        {
+          "id": 134,
+          "text": "How long do you hold onto anger after a conflict?",
+          "options": [
+            { "text": "I let it go quickly", "value": 1 },
+            { "text": "I stay irritated for a little while", "value": 2 },
+            { "text": "I hold onto it for a long time", "value": 3 },
+            { "text": "I keep rethinking it and can’t move on", "value": 4 }
+          ]
+        },
+        {
+          "id": 135,
+          "text": "How often do you feel frustrated during the day?",
+          "options": [
+            { "text": "Rarely — most things don’t bother me", "value": 1 },
+            { "text": "Occasionally — if something goes wrong", "value": 2 },
+            { "text": "Frequently — I get irritated easily", "value": 3 },
+            { "text": "Very frequently — I feel like I’m always angry at something", "value": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Depression",
+      "questions": [
+        {
+          "id": 136,
+          "text": "How often do you feel sad or down without a clear reason?",
+          "options": [
+            { "text": "Rarely — my mood is usually stable", "value": 1 },
+            { "text": "Sometimes — it comes and goes", "value": 2 },
+            { "text": "Often — I feel down more than I’d like", "value": 3 },
+            { "text": "Very often — I struggle with low mood regularly", "value": 4 }
+          ]
+        },
+        {
+          "id": 137,
+          "text": "When faced with setbacks, how do you usually feel?",
+          "options": [
+            { "text": "Disappointed but bounce back quickly", "value": 1 },
+            { "text": "Discouraged for a while", "value": 2 },
+            { "text": "Hopeless and stuck", "value": 3 },
+            { "text": "Devastated — I feel like giving up", "value": 4 }
+          ]
+        },
+        {
+          "id": 138,
+          "text": "How often do you feel that life is meaningless or empty?",
+          "options": [
+            { "text": "Almost never — I find meaning in life", "value": 1 },
+            { "text": "Occasionally during rough times", "value": 2 },
+            { "text": "Frequently — I struggle to find purpose", "value": 3 },
+            { "text": "Very frequently — I often feel empty or lost", "value": 4 }
+          ]
+        },
+        {
+          "id": 139,
+          "text": "How do you feel about yourself when things go wrong?",
+          "options": [
+            { "text": "I stay confident and don’t take it personally", "value": 1 },
+            { "text": "I feel a little down but keep perspective", "value": 2 },
+            { "text": "I blame myself and feel discouraged", "value": 3 },
+            { "text": "I feel worthless or like a failure", "value": 4 }
+          ]
+        },
+        {
+          "id": 140,
+          "text": "How much energy or motivation do you usually feel?",
+          "options": [
+            { "text": "A lot — I’m usually energetic", "value": 1 },
+            { "text": "Enough to get things done", "value": 2 },
+            { "text": "Not much — I often feel drained", "value": 3 },
+            { "text": "Very little — even basic tasks feel exhausting", "value": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Self-Consciousness",
+      "questions": [
+        {
+          "id": 141,
+          "text": "How do you feel when speaking in front of a group?",
+          "options": [
+            { "text": "Comfortable — I enjoy the attention", "value": 1 },
+            { "text": "A little nervous, but I manage", "value": 2 },
+            { "text": "Very uneasy — I try to avoid it", "value": 3 },
+            { "text": "Extremely anxious — I feel everyone is judging me", "value": 4 }
+          ]
+        },
+        {
+          "id": 142,
+          "text": "When walking into a room where people turn to look at you, how do you feel?",
+          "options": [
+            { "text": "Fine — I don’t think much of it", "value": 1 },
+            { "text": "Slightly awkward, but it passes", "value": 2 },
+            { "text": "Self-conscious and unsure of myself", "value": 3 },
+            { "text": "Highly uncomfortable — I want to disappear", "value": 4 }
+          ]
+        },
+        {
+          "id": 143,
+          "text": "How often do you worry about what others think of you?",
+          "options": [
+            { "text": "Rarely — it doesn’t bother me", "value": 1 },
+            { "text": "Sometimes — in important situations", "value": 2 },
+            { "text": "Frequently — I overthink how I come across", "value": 3 },
+            { "text": "Very frequently — it affects most of my social interactions", "value": 4 }
+          ]
+        },
+        {
+          "id": 144,
+          "text": "How do you respond after making a small social mistake (like mispronouncing a word)?",
+          "options": [
+            { "text": "I laugh it off and move on", "value": 1 },
+            { "text": "I feel a bit embarrassed but get over it", "value": 2 },
+            { "text": "I dwell on it and feel awkward", "value": 3 },
+            { "text": "I feel intense shame and replay it over and over", "value": 4 }
+          ]
+        },
+        {
+          "id": 145,
+          "text": "How concerned are you with your appearance in public?",
+          "options": [
+            { "text": "Not very — I dress for comfort", "value": 1 },
+            { "text": "Moderately — I like to look presentable", "value": 2 },
+            { "text": "Quite a bit — I worry about how I look", "value": 3 },
+            { "text": "A great deal — I obsess over my image", "value": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Immoderation",
+      "questions": [
+        {
+          "id": 146,
+          "text": "How often do you give in to cravings or temptations?",
+          "options": [
+            { "text": "Rarely — I have strong self-control", "value": 1 },
+            { "text": "Sometimes — I try to resist but slip occasionally", "value": 2 },
+            { "text": "Often — I struggle to resist urges", "value": 3 },
+            { "text": "Very often — I give in easily and frequently", "value": 4 }
+          ]
+        },
+        {
+          "id": 147,
+          "text": "When you’re upset or stressed, how do you behave?",
+          "options": [
+            { "text": "I stay calm and avoid reacting impulsively", "value": 1 },
+            { "text": "I try to manage it, but sometimes react strongly", "value": 2 },
+            { "text": "I often lash out or make rash decisions", "value": 3 },
+            { "text": "I lose control — I say or do things I regret", "value": 4 }
+          ]
+        },
+        {
+          "id": 148,
+          "text": "How do you handle spending money when you're emotional?",
+          "options": [
+            { "text": "I always stick to a budget", "value": 1 },
+            { "text": "I sometimes splurge a little", "value": 2 },
+            { "text": "I shop to make myself feel better", "value": 3 },
+            { "text": "I often make impulsive purchases I later regret", "value": 4 }
+          ]
+        },
+        {
+          "id": 149,
+          "text": "When tempted by food, drink, or entertainment, how do you react?",
+          "options": [
+            { "text": "I resist easily", "value": 1 },
+            { "text": "I give in occasionally", "value": 2 },
+            { "text": "I usually give in quickly", "value": 3 },
+            { "text": "I give in immediately with little thought", "value": 4 }
+          ]
+        },
+        {
+          "id": 150,
+          "text": "How often do you act without thinking through the consequences?",
+          "options": [
+            { "text": "Almost never", "value": 1 },
+            { "text": "Occasionally when I’m emotional", "value": 2 },
+            { "text": "Frequently — I tend to act on impulse", "value": 3 },
+            { "text": "Very frequently — I often regret things I've done in the moment", "value": 4 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vulnerability",
+      "questions": [
+        {
+          "id": 151,
+          "text": "How do you feel when things suddenly go wrong (e.g., unexpected problem at work)?",
+          "options": [
+            { "text": "I stay calm and handle it efficiently", "value": 1 },
+            { "text": "I feel stressed but manage it okay", "value": 2 },
+            { "text": "I feel overwhelmed and unsure what to do", "value": 3 },
+            { "text": "I shut down emotionally or panic", "value": 4 }
+          ]
+        },
+        {
+          "id": 152,
+          "text": "How well do you function in emergencies or high-pressure situations?",
+          "options": [
+            { "text": "Very well — I stay level-headed", "value": 1 },
+            { "text": "Fairly well — with some nerves", "value": 2 },
+            { "text": "Not great — I get flustered", "value": 3 },
+            { "text": "Poorly — I freeze or break down", "value": 4 }
+          ]
+        },
+        {
+          "id": 153,
+          "text": "How do you respond when you're overloaded with tasks or responsibilities?",
+          "options": [
+            { "text": "I prioritize and stay focused", "value": 1 },
+            { "text": "I feel stressed but push through", "value": 2 },
+            { "text": "I struggle to keep up and feel helpless", "value": 3 },
+            { "text": "I become emotionally drained or shut down", "value": 4 }
+          ]
+        },
+        {
+          "id": 154,
+          "text": "How do you handle personal crises (e.g., illness, breakup, loss)?",
+          "options": [
+            { "text": "I cope steadily and seek support if needed", "value": 1 },
+            { "text": "I manage with effort and time", "value": 2 },
+            { "text": "I feel emotionally fragile or lost", "value": 3 },
+            { "text": "I feel completely unable to function", "value": 4 }
+          ]
+        },
+        {
+          "id": 155,
+          "text": "When under emotional or physical pressure, how do you feel?",
+          "options": [
+            { "text": "Capable and in control", "value": 1 },
+            { "text": "Stretched but functional", "value": 2 },
+            { "text": "Barely hanging on", "value": 3 },
+            { "text": "Completely overwhelmed", "value": 4 }
+          ]
+        }
+      ]
+    }
+  ]
+}
+}

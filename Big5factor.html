@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Big Five Personality Quiz – JSON-Driven</title>
+<script type="module" src="js/quiz.js" defer></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="quiz-card">
+  <h1>Big Five Personality Quiz</h1>
+  <!-- ============  FORM SHELL  ============ -->
+  <form id="quizForm">
+
+  <!-- ========== OPENNESS ========== -->
+  <details class="category" data-trait="O">
+    <summary>Openness&nbsp;to&nbsp;Experience</summary>
+
+    <div class="panel-body">
+
+      <div class="trait-info">
+        <p><em>What it measures:</em> Openness reflects your appetite for imagination, intellectual curiosity, creativity and variety. It captures how readily you seek out novel ideas, aesthetics and experiences.</p>
+        <p><strong>If you score HIGH:</strong> you’re likely imaginative, original, intensely curious and comfortable with change and abstract ideas.<br>
+           <strong>If you score LOW:</strong> you may prefer the familiar, value practicality over fantasy and feel uneasy with ambiguity or unconventional thinking.</p>
+      </div>
+
+      <details class="subcategory" data-subcomponent="Fantasy"><summary>Imagination (Fantasy) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Imagination Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Aesthetics"><summary>Artistic Interests (Aesthetics) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Artistic Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Feelings"><summary>Emotionality (Feelings) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Emotionality Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Actions"><summary>Adventurousness (Actions) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Actions Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Ideas"><summary>Intellect (Ideas) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Ideas Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Values"><summary>Liberalism (Values) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Values Results</button><div class="sub-result"></div></div></details>
+    </div>
+  </details>
+
+  <!-- ========== CONSCIENTIOUSNESS ========== -->
+  <details class="category" data-trait="C">
+    <summary>Conscientiousness</summary>
+
+    <div class="panel-body">
+
+      <div class="trait-info">
+        <p><em>What it measures:</em> Conscientiousness gauges self-discipline, organisation, reliability and goal-directed behaviour. It shows how diligently you plan, follow rules and persist with tasks.</p>
+        <p><strong>If you score HIGH:</strong> you’re organised, responsible, detail-oriented and driven to achieve long-term goals.<br>
+           <strong>If you score LOW:</strong> you may be spontaneous, flexible and comfortable with disorder, but also more prone to procrastination and missed details.</p>
+      </div>
+
+      <details class="subcategory" data-subcomponent="Orderliness"><summary>Orderliness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Orderliness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Self-Discipline"><summary>Self-Discipline <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Self-Discipline Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Dutifulness"><summary>Dutifulness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Dutifulness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Achievement-Striving"><summary>Achievement-Striving <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Achievement Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Cautiousness"><summary>Cautiousness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Cautiousness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Industriousness"><summary>Industriousness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Industriousness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Deliberation"><summary>Deliberation <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Deliberation Results</button><div class="sub-result"></div></div></details>
+    </div>
+  </details>
+
+  <!-- ========== EXTRAVERSION ========== -->
+  <details class="category" data-trait="E">
+    <summary>Extraversion</summary>
+
+    <div class="panel-body">
+
+      <div class="trait-info">
+        <p><em>What it measures:</em> Extraversion captures social energy, assertiveness, enthusiasm and the tendency to seek external stimulation. It reflects how invigorated you feel by people and activity.</p>
+        <p><strong>If you score HIGH:</strong> you’re outgoing, talkative, energetic and often take leadership roles.<br>
+           <strong>If you score LOW:</strong> you’re reserved, self-contained and recharge with quiet time, finding large crowds draining.</p>
+      </div>
+
+      <details class="subcategory" data-subcomponent="Warmth"><summary>Warmth <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Warmth Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Gregariousness"><summary>Gregariousness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Gregariousness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Assertiveness"><summary>Assertiveness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Assertiveness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Activity Level"><summary>Activity Level <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Activity Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Excitement-Seeking"><summary>Excitement-Seeking <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Excitement Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Cheerfulness"><summary>Positive Emotions (Cheerfulness) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Cheerfulness Results</button><div class="sub-result"></div></div></details>
+    </div>
+  </details>
+
+  <!-- ========== AGREEABLENESS ========== -->
+  <details class="category" data-trait="A">
+    <summary>Agreeableness</summary>
+
+    <div class="panel-body">
+
+      <div class="trait-info">
+        <p><em>What it measures:</em> Agreeableness reflects empathy, compassion, trust and the desire for social harmony. It shows how readily you consider and accommodate other people’s needs.</p>
+        <p><strong>If you score HIGH:</strong> you’re cooperative, kind-hearted, trusting and quick to compromise.<br>
+           <strong>If you score LOW:</strong> you’re frank, competitive and comfortable with conflict, preferring directness over diplomacy.</p>
+      </div>
+
+      <details class="subcategory" data-subcomponent="Trust"><summary>Trust <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Trust Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Morality"><summary>Morality (Straightforwardness) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Morality Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Altruism"><summary>Altruism <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Altruism Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Cooperation"><summary>Cooperation <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Cooperation Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Modesty"><summary>Modesty <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Modesty Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Sympathy"><summary>Sympathy (Tender-Mindedness) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Sympathy Results</button><div class="sub-result"></div></div></details>
+    </div>
+  </details>
+
+  <!-- ========== NEUROTICISM ========== -->
+  <details class="category" data-trait="N">
+    <summary>Neuroticism</summary>
+
+    <div class="panel-body">
+
+      <div class="trait-info">
+        <p><em>What it measures:</em> Neuroticism represents emotional volatility, stress reactivity and proneness to negative feelings such as anxiety, anger and sadness.</p>
+        <p><strong>If you score HIGH:</strong> you may experience frequent worry, mood swings and heightened sensitivity to stress or criticism.<br>
+           <strong>If you score LOW:</strong> you tend to stay calm, resilient and emotionally stable, even in challenging situations.</p>
+      </div>
+
+      <details class="subcategory" data-subcomponent="Anxiety"><summary>Anxiety <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Anxiety Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Anger"><summary>Anger (Hostility) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Anger Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Depression"><summary>Depression <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Depression Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Self-Consciousness"><summary>Self-Consciousness <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Self-Consciousness Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Immoderation"><summary>Immoderation (Impulsiveness) <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Immoderation Results</button><div class="sub-result"></div></div></details>
+      <details class="subcategory" data-subcomponent="Vulnerability"><summary>Vulnerability <span class="arrow">▶</span></summary><div class="panel-body"><button type="button" class="sub-results-btn">See Vulnerability Results</button><div class="sub-result"></div></div></details>
+    </div>
+  </details>
+
+  <button type="submit" style="margin-top:1.5rem;width:100%">See Overall Trait Results</button>
+</form>
+
+
+  <!-- results area -->
+  <div id="results">
+    <h2>Your Trait Scores</h2>
+    <div id="resultBars"></div>
+  </div>
+</div>
+</body>
+</html>
